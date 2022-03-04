@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vending machine</title>
+    <link rel="stylesheet" href="index.css" >
+     <script src="index.js"></script>
+    <style>
+       
+        </style>
+</head>
+<body> 
+    <center style="padding: 0px 0;">
+
+        <div class="vending">
+            <marquee behavior="scroll" direction="right">OluwaDamilare Vending Machine</marquee>
+            <input type="text" name="" id="input" placeholder="Enter amount"> <button id="button" onclick="enter()">Enter</button>
+            
+                <div class="total"  > <span>#</span> <div id="total1">Your total balance </div></div>
+                <div class="total" > <span>#</span> <div id="total2">Total amount of goods you purchase</div></div>
+          
+            <div id="display">
+                <div>
+                
+                    <h4>
+                        welcome to our company
+                    </h5>
+                    <p>Click 1 to buy Coke</p> 
+                    <p>Click 2 to buy Rice</p> 
+                    <p>Click 3 to buy Bean</p> 
+                    <p>Click 4 to buy Sweet</p> 
+                    <p>Click 5 to buy puff-puff</p> 
+                    <p>Click 6 to buy milk </p> 
+                    <p>Click 7 to buy Chocolate</p> 
+                    <p>Click 8 to buy sadine</p> 
+                    <p>Click 9 to buy perfume</p> 
+                    <p>Click add all you purchase  </p> 
+                    <p>Click delete to clear item</p> 
+                    <p>Click buy to purchase</p>  
+                </div>
+            </div>
+            <table width="295px" >
+                <tr>
+                    <td><button onclick="one()">1</button></td>
+                    <td><button onclick="two()">2</button></td>
+                    <td><button onclick="three()">3</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="four()">4</button></td>
+                    <td><button onclick="five()">5</button></td>
+                    <td><button onclick="six()">6</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="seven()">7</button></td>
+                    <td><button onclick="eight()">8</button></td>
+                    <td><button onclick="nine()">9</button></td>
+                </tr>
+                <tr>
+                    <td id="add"><button onclick="add()" id="add">Add</button></td>
+                    <td><button onclick="delte()">Delete</button></td>
+                    <td id="add2"><button onclick="buy()">Buy</button></td>
+                </tr>
+            </table>
+            
+        </div>
+    </center>
+    
+</body>
+</html>
