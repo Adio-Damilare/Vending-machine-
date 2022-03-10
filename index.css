@@ -11,10 +11,9 @@
     font-size: 15px;
     border: 16px groove;
     text-align: justify;
-    /* background-image: radial-gradient( rgb(197, 137, 26),rgb(45, 45, 214)); */
     background-image: repeating-radial-gradient(rgb(113, 199, 214)93%,rgb(219, 231, 49),rgb(235, 159, 159),rgb(192, 247, 65),rgb(236, 206, 33) );
     background-repeat: repeat;
-    color: rgb(32, 24, 29);
+    color: rgb(46, 42, 42);
     opacity: 98%;
     padding: 020px 0 0 60px ;
     width: 302px;
@@ -76,6 +75,3 @@ marquee{
         color: green;
     }
 }
-/* @media screen and (max-width:) { */
-    
-/* } */
